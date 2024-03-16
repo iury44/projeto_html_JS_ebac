@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>comparing numbers</title>
+</head>
+<body>
+    <div class="container">
+      <h1>Comparing Numbers</h1>
+
+      <form action="">
+        <label for="number-a"> Number A</label>
+        <input min="0" max="100" id="number-a" class="" type="number" name="number-a" placeholder="Digite Número A" required>
+        
+        <label for="number-b">Number B</label>
+        <input min="0" max="100" type="number" id="number-b" class=" " name="number-b"  placeholder="Digite Número B" required>
+        <button class="btn-form" type="submit">Enviar</button>
+      </form>
+      
+      <span id="error" class=""> </span>
+      <span id="validated" class=""></span>
+    </div>
+    <script type="module" src="./index.js" defer></script>
+</body>
+</html>

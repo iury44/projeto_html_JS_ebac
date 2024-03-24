@@ -25,4 +25,4 @@ Faça suas alterações e commit (git commit -am 'Adicionar nova funcionalidade'
 Faça push para a branch (git push origin feature/nova-funcionalidade).
 Crie um novo Pull Request.
 
-Certifique-se de substituir `` pelo seu nome de usuário e nome do repositório no GitHub. Adicionei informações sobre a nova funcionalidade de remover tarefas concluídas ao dar um duplo clique nelas, assim como informações sobre como contribuir com o projeto.
+Certifique-se de substituir `https://github.com/iury44/projeto_html_JS_ebac/tree/main` pelo seu nome de usuário e nome do repositório no GitHub. Adicionei informações sobre a nova funcionalidade de remover tarefas concluídas ao dar um duplo clique nelas, assim como informações sobre como contribuir com o projeto.

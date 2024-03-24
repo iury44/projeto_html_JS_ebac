@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 62.5%;
+  --color-border : #a76300;
+  --ff-color:#FFF;
+  --font-padrao:"Roboto", sans-serif;
+}
+
+body{
+  font-size: 1.6rem;
+  background: rgba(229,151,43,.7);
+  
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+  margin: 5rem auto;  
+  
+}
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+header h2{
+  color: var(--ff-color);
+  font-family: var(--font-padrao);
+  font-weight: bold;
+}
+header img{
+  width: 8rem;
+  border-radius: 9rem;
+  
+}
+form{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+#inputTarefa{
+  max-width: 50rem;
+  width: 40rem;
+  height: 4rem;
+  border-radius: 1rem;
+  border: 3px solid var(--color-border);
+  outline: none;
+  padding: 1rem;
+  font-family: var(--font-padrao);
+  font-weight: 400;
+  
+}
+
+#inputTarefa::placeholder{
+  font-size: 1rem;
+  padding: 1rem;
+  font-weight: bolder;
+}
+
+#btn-submit{
+  width: 9rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  border: 3px solid var(--color-border);
+  text-align: center;
+  background-color: #bc740e;
+  color: var(--ff-color);
+  font-family: var(--font-padrao);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+main{
+  
+  display: flex;
+  justify-content: start;
+  max-width: 60rem;
+  width: 50rem;
+}
+#listaTarefas li{
+  font-family: var(--font-padrao);
+  color: var(--ff-color);
+  font-weight: 500;
+  cursor: pointer;
+  list-style: none;
+}
+.tarefa-completa {
+  text-decoration: line-through green;
+}
